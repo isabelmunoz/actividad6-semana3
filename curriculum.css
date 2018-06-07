@@ -15,7 +15,7 @@ padding: 0px;
 .bigbox {
 	background-color: white;
 	width: 80%;
-	height: 600px;
+	height: 1030px;
 	display: block;
 	margin:40px 150px;
 }
@@ -61,4 +61,151 @@ h2 {
 
 .col-md-2 ul li span{
 	font-weight: bold;
+}
+
+.balloon{
+border-radius: 5px;
+background-color: #E2E2E3;
+padding: 10px 0px 10px 20px;
+width: 83%;
+float: right;
+margin:5px 40px 5px 10px;
+}
+
+.balloon:before {
+content:"";
+position: absolute;
+width: 0;
+height: 0;
+border-right: 20px solid #E2E2E3;
+border-top: 12px solid transparent;
+border-left: 18px solid transparent;
+margin: 10px 0 0 -45px;
+transform: rotate(15deg);
+}
+
+.parrafo_globo{
+	position: relative;
+	top: 45px;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+
+}
+.parrafo_globo2{
+	position: relative;
+	top: 112px;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+}
+.barra1{
+width: 80%;
+background-color: red;
+color: white;
+font-weight: bold;	
+margin: 40px 3px 3px 3px;
+padding: 3px;
+
+}
+
+.barra2{
+width: 70%;
+background-color: red;	
+color: white;
+font-weight: bold;
+margin: 3px;
+padding: 3px;
+}
+.barra3{
+width: 60%;
+background-color: red;
+color: white;
+font-weight: bold;	
+margin: 3px;
+padding: 3px;
+}
+.barra4{
+width: 50%;
+background-color: red;
+color: white;	
+font-weight: bold;
+margin: 3px;
+padding: 3px;
+}
+.barra5{
+width: 30%;
+background-color: red;
+color: white;
+font-weight: bold;
+margin: 3px;
+padding: 3px;
+}
+
+.estrellas{
+	
+	margin: 0px;
+
+}
+.estrellas li{
+	list-style: none;
+	display: inline;
+	position:relative;
+	top: 25px;
+    right: 10px;
+}
+.estrellas img{
+	border-radius: none;
+	border: none;
+	width: 30px;
+}
+
+.linea2{
+	width: 85%;
+    position: relative;
+    margin: 1px;
+    top: -25px;
+}
+.hobbie{
+	background-color: #AB038C;
+	color: white;
+	border-radius: 10%;
+	margin: 2px;
+	padding: 5px;
+	display: inline-block;
+}
+
+
+.linea3{
+    background-color: #E2E2E3;
+	width: 98%;
+	height: 3px; 
+	border: none;
+	position: relative;
+	top: 70px;
+}
+.pie{
+	display:inline-block;
+	text-align: right;
+	position: relative;
+	left: 940px;
+	top: 80px;
+}
+
+.left{
+	float:left;
+	width: 15%;
+	margin: 5px 0px 5px 0px;
+}
+
+.right{
+	float: right;
+	margin: 5px 40px 5px 0px;
+	width: 75%;
+}
+.right p{
+	margin:0px;
+}
+h4{
+	margin: 0px;
 }
